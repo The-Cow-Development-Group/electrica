@@ -15,4 +15,5 @@ Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 http://creativecommons.org/licenses/by-sa/3.0/
 
 ingots, lumps etch are under the next copyright due to their origin
+
 Copyright (C) 2010-2012 celeron55, Perttu Ahola <celeron55@gmail.com>
