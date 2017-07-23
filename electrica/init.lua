@@ -2,7 +2,7 @@ print("Electrica init.lua is intializing Please Wait")
 
 dofile(minetest.get_modpath("electrica").."/aliases.lua")
 dofile(minetest.get_modpath("electrica").."/functions.lua")
-dofile(minetest.get_modpath("electrica").."/nodes.lua") --[ should be changed in future possibly]--
+-- dofile(minetest.get_modpath("electrica").."/nodes.lua") --[ should be changed in future possibly]--
 dofile(minetest.get_modpath("electrica").."/tools.lua")
 dofile(minetest.get_modpath("electrica").."/craftitems.lua")
 dofile(minetest.get_modpath("electrica").."/crafting.lua")

@@ -3,6 +3,7 @@ dofile(minetest.get_modpath("electrica_plastic").."/aliases.lua")
 dofile(minetest.get_modpath("electrica_plastic").."/nodes.lua")
 dofile(minetest.get_modpath("electrica_plastic").."/craftitems.lua")
 dofile(minetest.get_modpath("electrica_plastic").."/functions.lua")
+dofile(minetest.get_modpath("electrica_plastic").."/liguid_plastic.lua")
 
 
 if minetest.get_modpath("electrica") ~= nil then --[[ Mod Detection For Compatibility ]]--
