@@ -1,4 +1,4 @@
-minetest.register_craftitem("electrica_plastic:bucket_silicon", {
+ minetest.register_craftitem("electrica_plastic:bucket_silicon", { --[bucket of plastic]--
 	description = "(BETA) Bucket Of Liguid Silicon",
 	inventory_image = "electrica_plastic_plastic.png"
 })
