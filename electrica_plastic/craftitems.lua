@@ -7,3 +7,8 @@ minetest.register_craftitem("electrica_plastic:silicon_ingot", { --[silicon ingo
 	inventory_image = "electrica_plastic_plastic_ingot.png",
 	groups = {cracky = 1, dye=1, basecolor_cyan=1, excolor_cyan=1, unicolor_cyan=1, wrenchy=1},
 })
+minetest.register_craftitem("electrica_plastic:nylon_ingot", { --[nylonon ingot}-- --[should propably make bouncy]--
+	description = "Nylon Ingot",
+	inventory_image = "electrica_plastic_plastic_ingot.png",
+	groups = {cracky = 1, dye=1, basecolor_cyan=1, excolor_cyan=1, unicolor_cyan=1, wrenchy=1},
+})
