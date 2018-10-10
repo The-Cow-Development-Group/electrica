@@ -17,7 +17,7 @@ minetest.register_craftitem("electrica:charcoal_lump", { --[charcoal lump}--
 
 minetest.register_craftitem("electrica:steel_gear", { --[steel gear}--
 	description = "Steel Gear",
-	inventory_image = "electrica_iron_gear.png"
+	inventory_image = "electrica_iron_gear.png" --[no texture]--
 })
 
 minetest.register_craftitem("electrica:quartz_lump", { --[quartz lump}--
