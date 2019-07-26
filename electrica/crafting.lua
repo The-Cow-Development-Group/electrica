@@ -23,7 +23,7 @@ minetest.register_craft({ --[[ steel gear ]]--
 			 }
  
 })
-minetest.register_craft({ --[[ steel gear ]]--
+minetest.register_craft({ --[[ quartz block ]]--
 	output = "electrica:quartz_block 4",
 	recipe = {
 			 {" ", " ", " "},

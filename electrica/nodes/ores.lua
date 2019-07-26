@@ -20,6 +20,7 @@ sunlight_propagates = true,
 sounds = default.node_sound_metal_defaults(),
 groups = {cracky=1, stone=1, oddly_breakable_by_hand=3 },
 })
+
 minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "electrica:quartz_ore",
@@ -30,6 +31,7 @@ minetest.register_ore({
 		y_min          = -31000,
 		y_max          = 31000,
 	})
+
 minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "electrica:opacious_ore",
