@@ -40,6 +40,7 @@ tiles = {"electrica_quartz_brick.png"},
 groups = {cracky = 1},
 sounds = default.node_sound_metal_defaults(),
 })
+
 minetest.register_node("electrica:dark_quartz_block, {
   description = "Dark Quartz Block",
   is_ground_content = true,
