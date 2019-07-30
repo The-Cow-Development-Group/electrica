@@ -33,7 +33,7 @@ minetest.register_craft({ --[[ quartz block ]]--
 
 })
 
-
+--[[ CHARCOAL ]]--
 
 minetest.register_craft({ --[[ charcoal from acacia ]]--
 	type = "cooking",
@@ -68,6 +68,7 @@ minetest.register_craft({ --[[ charcoal from jungletree ]]--
 	output = "electrica:charcoal_lump",
 })
 end
+ --[[ End of Charcoal ]]--
 
 minetest.register_craft({ --[[ silicon from quartz  ]]--
    type = "cooking",
