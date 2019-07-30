@@ -3,15 +3,15 @@ description = "Quartz Ore",
 is_ground_content = true,
 tiles = {"default_stone.png^electrica_quartz_ore.png"},
 
-drop = 'electrica:quartz_lump',
+drop = 'electrica:quartz_lump 2-4',
 sounds = default.node_sound_metal_defaults(),
-groups = {cracky=1, stone=1 },
+groups = {cracky=1, stone=1, cracky=3 },
 })
 
 minetest.register_node("electrica:opacious_ore", {
 description = "Opacious Ore",
 is_ground_content = true,
-tiles = {"opacity.png"},
+tiles = {"electrica_opacious_ore.png"},
 use_texture_alpha = true,
 drawtype = "glasslike",
 paramtype = "light",
@@ -20,7 +20,6 @@ sunlight_propagates = true,
 sounds = default.node_sound_metal_defaults(),
 groups = {cracky=1, stone=1, oddly_breakable_by_hand=3 },
 })
-
 minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "electrica:quartz_ore",
@@ -31,7 +30,6 @@ minetest.register_ore({
 		y_min          = -31000,
 		y_max          = 31000,
 	})
-
 minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "electrica:opacious_ore",
@@ -42,3 +40,13 @@ minetest.register_ore({
 		y_min          = -31000,
 		y_max          = 31000,
 	})
+	minetest.register_ore({
+			ore_type       = "scatter",
+			ore            = "electrica:opacious_ore",
+			wherein        = "default:pine_needles",
+			clust_scarcity = 15 * 15 * 15,
+			clust_num_ores = 9,
+			clust_size     = 9,
+			y_min          = -31000,
+			y_max          = 31000,
+		})

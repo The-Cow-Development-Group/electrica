@@ -1,13 +1,13 @@
 print("Electrica Plastic Expansion init.lua is intializing Please Wait")
-dofile(minetest.get_modpath("electrica_plastic").."/aliases.lua")
-dofile(minetest.get_modpath("electrica_plastic").."/nodes.lua")
-dofile(minetest.get_modpath("electrica_plastic").."/craftitems.lua")
-dofile(minetest.get_modpath("electrica_plastic").."/functions.lua")
-dofile(minetest.get_modpath("electrica_plastic").."/liguid_plastic.lua")
+--dofile(minetest.get_modpath("electrica_plastic").."/aliases.lua")
+--dofile(minetest.get_modpath("electrica_plastic").."/nodes.lua")
+--dofile(minetest.get_modpath("electrica_plastic").."/craftitems.lua")
+--dofile(minetest.get_modpath("electrica_plastic").."/functions.lua")
+--dofile(minetest.get_modpath("electrica_plastic").."/liguid_plastic.lua")
 
 
 if minetest.get_modpath("electrica") ~= nil then --[[ Mod Detection For Compatibility ]]--
- dofile(minetest.get_modpath("electrica").."/comp/eleplast.lua")
+-- dofile(minetest.get_modpath("electrica").."/comp/eleplast.lua")
 else
  print("Warn: Electrica Not Available Please Install Electrica")
  minetest.chat_send_all("Electrica Not Available Please Install Electrica which is a 'mother' mod")
