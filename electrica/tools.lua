@@ -9,4 +9,19 @@ minetest.register_tool("electrica:wrench", {
 		},
 		damage_groups = {fleshy=4},
 	},
-}) 
+})
+
+minetest.register_tool("electrica:debug_wrench", {
+	description = "Debug Wrench (left-click rotates face, right-click rotates axis)",
+	inventory_image = "electrica_wrench.png",
+	groups = {tool = 1},
+		on_use = function(itemstack, user, pointed_thing)
+		screwdriver.handler(itemstack, user, pointed_thing, screwdriver.ROTATE_FACE, 200)
+		return itemstack
+	end,
+	on_place = function(itemstack, user, pointed_thing)
+		screwdriver.handler(itemstack, user, pointed_thing, screwdriver.ROTATE_AXIS, 200)
+		return itemstack
+	end,
+
+})

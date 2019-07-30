@@ -3,7 +3,7 @@ minetest.register_craft({ --[[ cobalt ingot ]]--
 	type = "shapeless",
 	output = "electrica:cobalt_ingot",
 	recipe = {"default:steel_ingot", "default:gold_ingot", "default:steel_ingot"}
- 
+
 })
 minetest.register_craft({ --[[ torch with charcoal]]--
 	output = "default:torch 4",
@@ -12,7 +12,7 @@ minetest.register_craft({ --[[ torch with charcoal]]--
 			 {"electrica:charcoal_lump", " ", " "},
 			 {"default:stick", " ", " "}
 			 }
- 
+
 })
 minetest.register_craft({ --[[ steel gear ]]--
 	output = "electrica:steel_gear 4",
@@ -21,7 +21,7 @@ minetest.register_craft({ --[[ steel gear ]]--
 			 {"default:steel_ingot", " ", "default:steel_ingot"},
 			 {" ", "default:steel_ingot", " "}
 			 }
- 
+
 })
 minetest.register_craft({ --[[ quartz block ]]--
 	output = "electrica:quartz_block 4",
@@ -30,7 +30,7 @@ minetest.register_craft({ --[[ quartz block ]]--
 			 {"electrica:quartz_lump", "electrica:quartz_lump", " "},
 			 {"electrica:quartz_lump", "electrica:quartz_lump", " "}
 			 }
- 
+
 })
 
 
@@ -68,3 +68,10 @@ minetest.register_craft({ --[[ charcoal from jungletree ]]--
 	output = "electrica:charcoal_lump",
 })
 end
+
+minetest.register_craft({ --[[ silicon from quartz  ]]--
+   type = "cooking",
+   recipe = "electrica_quartz_block",
+   output = "electrica:ep_bucket_silicon",
+
+})
