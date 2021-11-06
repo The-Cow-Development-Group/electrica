@@ -1,6 +1,0 @@
-print("IF YOU CAN READ THIS YOU HAVE AN ISSUE IN ALIASES.LUA")
-minetest.register_alias("electrica_plastic:plastic", "electrica_plastic:bucket_plastic")
-minetest.register_alias("electrica_plastic:bucket_plastic", "electrica_plastic:bucket_silicon")
-minetest.register_alias("electrica_plastic:plastic_ingot", "electrica_plastic:silicon_ingot")
-minetest.register_alias("electrica_plastic:plastic_node", "electrica_plastic:silicon_node")
---minetest.register_alias("", "")

@@ -4,6 +4,7 @@
 
 minetest.register_node("electrica:epladder", {
 	description = "(WIP) ep ladder Brick",
+	climbable = true,
 	groups = {choppy = 1, oddly_breakable_by_hand = 1},
 	tiles = {
 		"electrica_quartz_pillar_stairs_side.png",
@@ -13,6 +14,12 @@ minetest.register_node("electrica:epladder", {
 		"electrica_quartz_pillar_stairs_side.png",
 		"electrica_quartz_pillar_stairs_side.png"
 	},
+	paramtype = "light",
+	paramtype2 = "wallmounted",
+	selection_box = {
+		type = "wallmounted",
+	},
+	on_place = minetest.rotate_node,
 	drawtype = "nodebox",
 	paramtype = "light",
 	node_box = {
