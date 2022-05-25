@@ -15,3 +15,6 @@ minetest.register_alias("electrica_plastic:plastic_flowing", "electrica:ep_silic
 minetest.register_alias("electrica_plastic:bucket_plastic", "electrica:ep_bucket_silicon")
 minetest.register_alias("electrica:ep_bucket_plastidip", "electrica:ep_bucket_silicon")
 minetest.register_alias("electrica:ep_bucket_silicon1", "electrica:ep_bucket_silicon")
+minetest.register_alias("electrica:ep_silicon_flowing", "electrica:liquid_silicon_flowing")
+minetest.register_alias("electrica:ep_silicon_source", "electrica:liquid_silicon_source")
+minetest.register_alias("electrica:ep_bucket_silicon", "electrica:bucket_liquid_silicon")

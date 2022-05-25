@@ -1,9 +1,9 @@
-minetest.register_node("electrica:ep_silicon_source", {
+minetest.register_node("electrica:liquid_silicon_source", {
 	description = "Liquid Silicon Source",
 	drawtype = "liquid",
 	tiles = {
 		{
-			name = "default_water_source_animated.png",
+			name = "electrica_liquid_silicon_source_animated.png",
 			animation = {
 				type = "vertical_frames",
 				aspect_w = 16,
@@ -15,7 +15,7 @@ minetest.register_node("electrica:ep_silicon_source", {
 	special_tiles = {
 		-- New-style water source material (mostly unused)
 		{
-			name = "default_water_source_animated.png",
+			name = "electrica_liquid_silicon_source_animated.png",
 			animation = {
 				type = "vertical_frames",
 				aspect_w = 16,
@@ -35,21 +35,21 @@ minetest.register_node("electrica:ep_silicon_source", {
 	drop = "",
 	drowning = 0,
 	liquidtype = "source",
-	liquid_alternative_flowing = "electrica:ep_silicon_flowing",
-	liquid_alternative_source = "electrica:ep_silicon_source",
+	liquid_alternative_flowing = "electrica:liquid_silicon_flowing",
+	liquid_alternative_source = "electrica:liquid_silicon_source",
 	liquid_viscosity = 1,
-	post_effect_color = {a = 103, r = 30, g = 60, b = 90},
+	post_effect_color = {a = 103, r = 30, g = 30, b = 30},
 	groups = {water = 3, liquid = 3, puts_out_fire = 1, cools_lava = 1},
 	sounds = default.node_sound_water_defaults(),
 })
 
-minetest.register_node("electrica:ep_silicon_flowing", {
+minetest.register_node("electrica:liquid_silicon_flowing", {
 	description = "Flowing Silicon",
 	drawtype = "flowingliquid",
-	tiles = {"default_water.png"},
+	tiles = {"electrica_liquid_silicon.png"},
 	special_tiles = {
 		{
-			name = "default_water_flowing_animated.png",
+			name = "electrica_liquid_silicon_flowing_animated.png",
 			backface_culling = false,
 			animation = {
 				type = "vertical_frames",
@@ -59,7 +59,7 @@ minetest.register_node("electrica:ep_silicon_flowing", {
 			},
 		},
 		{
-			name = "default_water_flowing_animated.png",
+			name = "electrica_liguid_silicon_flowing_animated.png",
 			backface_culling = true,
 			animation = {
 				type = "vertical_frames",
@@ -80,10 +80,10 @@ minetest.register_node("electrica:ep_silicon_flowing", {
 	drop = "",
 	drowning = 0,
 	liquidtype = "flowing",
-	liquid_alternative_flowing = "electrica:ep_silicon_flowing",
-	liquid_alternative_source = "electrica:ep_silicon_source",
+	liquid_alternative_flowing = "electrica:liquid_silicon_flowing",
+	liquid_alternative_source = "electrica:liquid_silicon_source",
 	liquid_viscosity = 1,
-	post_effect_color = {a = 103, r = 30, g = 60, b = 90},
+	post_effect_color = {a = 103, r = 30, g = 30, b = 30},
 	groups = {water = 3, liquid = 3, puts_out_fire = 1,
 		not_in_creative_inventory = 0, cools_lava = 1},
 	sounds = default.node_sound_water_defaults(),
