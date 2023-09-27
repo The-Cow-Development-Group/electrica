@@ -1,7 +1,8 @@
 # electrica
 is a another version of the minecraft mod electrica redone for minetest which can be found at minetest.net
 
-
+# BEING-REWORKED
+![rework](https://github.com/The-Cow-Development-Group/electrica/assets/5759030/1e674093-41bd-40e8-8388-6ddd5c6bd639)
 
 # LICENSE
 
