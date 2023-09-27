@@ -33,6 +33,15 @@ minetest.register_craft({ --[[ quartz block ]]--
 
 })
 
+minetest.register_craft({ --[[ wooden gearbox ]]--
+	output = "electrica:gearbox_wooden",
+	recipe = {
+			 {" ", "group:wood", " "},
+			 {"group:wood", "electrica:steel_gear", "group:wood"},
+			 {" ", "group:wood", " "}
+			 }
+
+})
 --[[ CHARCOAL ]]--
 
 minetest.register_craft({ --[[ charcoal from acacia ]]--

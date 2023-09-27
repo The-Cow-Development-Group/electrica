@@ -1,13 +1,6 @@
 # electrica
 is a another version of the minecraft mod electrica redone for minetest which can be found at minetest.net
 
-# BEING-REWORKED
-![rework](https://github.com/The-Cow-Development-Group/electrica/assets/5759030/1e674093-41bd-40e8-8388-6ddd5c6bd639)
-
-
-# RECENT BREAKING CHANGES & ANNOUNCENMENTS
-
-Created mod.conf to be minetest 5.0.0 (0.5.0) compatible files may change in upcoming months to maintain compatibility and a merge of the main electrica distribution will be merged with the electrica_plastic Addon due to them being separate is unnecessary all items, nodes, etc from electrica_plastic will become electrica ones this will be done using aliases and all changes that will be done to the mod means that 0.4.x releases will only get "backport" updates to add machines, etc to them and a release of the merged mods will be released for 0.4.x releases and then 5.0.0 version will be made
 
 
 # LICENSE
